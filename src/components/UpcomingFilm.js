@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class UpcomingFilm extends Component {
     render() {
         return (
-            <h2>Upcoming Film</h2>
+            <a href="https://www.imdb.com/calendar/?region=gb" target="_blank">Upcoming Films</a>
         )
     }
 }
