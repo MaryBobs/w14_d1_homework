@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Film extends Component {
     render() {
         return (
-            <h3>Film</h3>
+            <h3>{this.props.children}</h3>
         )
     }
 }
