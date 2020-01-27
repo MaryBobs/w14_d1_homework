@@ -36,7 +36,7 @@ class FilmContainer extends Component {
     render() {
         return(
             <div className="film-container">
-            <h1>FilmContainer</h1>
+            <h1>Upcoming Films</h1>
             <FilmList data={this.state.data}/>
             </div>
         )
